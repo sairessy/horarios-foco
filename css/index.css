@@ -1,0 +1,33 @@
+body {
+    background-color: #eee;
+}
+
+* {
+    font-family: arial;
+}
+
+#horarios {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+}
+
+h1 {
+    text-align: center;
+}
+
+#horarios .horario {
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    background-color: #96D4D4;
+  }
