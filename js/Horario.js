@@ -6,13 +6,13 @@ const Horario = (turma) => {
                 <h4>Curso: ${curso}</h4>
                 <h4>Local: ${local}</h4>
                 <h4>Sala: ${sala}</h4>
-                <hr/>
             </div>
-            <table border>
+            <hr/>
+            <table border style="margin: auto;">
                 <thead>
-                    <!--<tr>
-                        <th><td colspan="5">AULAS PRESENCIAIS</td></th>
-                    </tr>-->
+                    <tr>
+                        <th colspan="6">AULAS PRESENCIAIS</th>
+                    </tr>
                     <tr>
                         <th>HORAS</th>
                         <th>2ª feira</th>
